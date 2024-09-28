@@ -1,0 +1,122 @@
+@media (max-width:1224px){
+    .reviews-section .carousel-item .carousel-caption p{
+        padding:0.725rem;
+        font-size: 1rem;
+    }
+    
+}
+
+
+@media (max-width:991px){
+    .text-content{
+        width: 100%;
+    }
+
+    .navigation-wrap .navbar-brand img{
+        height: 4.8125rem;
+        width: auto;
+    }
+
+    .navigation-wrap{
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .top-banner{
+        padding: 9.375rem 0 9.375rem;
+    }
+
+    .reviews-section .carousel-item .carousel-caption p{
+        padding:0.5;
+        line-height: 1.0625rem;
+        font-size: 0.9275rem;
+    }
+    .d-flex{
+        padding-left: 4em;
+    }
+    .main-btn,
+    .white-btn{
+       padding: 3px 5px ;
+    }
+
+}
+
+
+@media (max-width:767px){
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    h4{
+        font-size: 1rem;
+        line-height: 2rem;
+
+    }
+
+    .top-banner{
+        width: 100%;
+        background: url('../img/bg/bg1small.jpg')no-repeat center;
+        background-size: cover;
+        padding: 10.875rem 0 9.375rem;  
+    }
+
+      /* story section */
+      .story-section{
+        height:auto;
+        padding:3rem 0;
+    }
+     
+    .reviews-section .carousel-item{
+   padding: 11rem 3.125rem;
+    }
+
+    .reviews-section .carousel-item .carousel-caption p{
+        font-size: 0.8125rem;
+        line-height: 1.0625rem;
+        padding: 0 ;
+      }
+    .reviews-section .carousel-item .carousel-caption h4{
+        font-size: 1.5125rem;
+        line-height: 1.0625rem;
+        padding: 1rem ;
+      }
+      .reviews-section{
+        padding:1.325rem 0 3rem 0;        
+      }
+
+      .wrapper {
+        padding-top: 2.25rem;
+        padding-bottom: 2.25rem;
+      }
+      
+      .faq-section p{
+        font-size: 0.8125rem;
+        line-height: 1.225rem;
+        padding: 0 ;
+      }
+
+      .newsletter{
+        width: 75%;
+      }
+
+      .newsletter .main-btn{
+        width: 100%;
+        margin-top: 1rem;
+      }
+
+      .footer .footer-link,
+      .footer a i{
+        padding: 0 0.7rem;
+        font-size: medium;
+      }
+
+}
+
+@media (max-width:330px){
+
+    .reviews-section .carousel-item{
+        padding: 13rem 3.125rem;
+    }
+}
